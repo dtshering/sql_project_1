@@ -19,6 +19,6 @@ WHERE job_title_short = 'Data Analyst'  AND
       AND TRIM(salary_year_avg)<> '' /*is done because this variable is stored as text*/
 ORDER BY 
       salary_year_avg DESC
-LIMIT 10;
+LIMIT 15;
 
 
